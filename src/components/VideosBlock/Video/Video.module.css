@@ -1,0 +1,6 @@
+.video_block {
+	@apply w-[300px]
+	h-[200px]
+
+	bg-black;
+}
