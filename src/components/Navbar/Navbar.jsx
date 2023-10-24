@@ -22,7 +22,7 @@ const Navbar = () => {
         <button className="w-1/4 h-full hover:bg-slate-50 hover:text-black transition duration-150 ease-in-out">
           Hotline
         </button>
-        <button className="w-1/4 h-full bg-red-500 hover:bg-slate-50 hover:text-red-500 transition duration-150 ease-in-out">
+        <button className="w-1/4 h-full bg-[#FF0000] hover:bg-slate-50 hover:text-red-500 transition duration-150 ease-in-out">
           DEUTSCH
         </button>
       </div>
