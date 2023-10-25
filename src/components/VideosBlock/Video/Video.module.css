@@ -1,5 +1,8 @@
 .video_block {
-	@apply w-[360px]
-	h-[240px];
-	color: #FF0000;
+	@apply flex
+	flex-wrap
+	min-w-[360px]
+	w-1/6
+	min-h-[240px];
+	color: #ff0000;
 }
