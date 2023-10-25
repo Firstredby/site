@@ -6,23 +6,23 @@ const Video = ({ text }) => {
   return (
     <div className={classes.video_block}>
       <video src={text} controls className="w-[407px] h-[230px]" />
-      <div className="grid grid-cols-2">
-        <div className="grid border-2 border-slate-400 bg-slate-300">
+      <div className="grid grid-cols-2 pt-1">
+        <div className="grid bg-slate-300 shadow-md">
           <button className="grid grid-cols-[2fr_6fr]">
             <img
               className="scale-50"
               src="https://www.svgrepo.com/show/533682/download.svg"
             />
-            <p className="text-start">mit Untertitel</p>
+            <p className="text-start self-center">mit Untertitel</p>
           </button>
         </div>
-        <div>
-          <button className="grid grid-cols-[2fr_6fr]">
+        <div className="pt-1">
+          <button className="grid grid-cols-[2fr_6fr] bg-slate-300 shadow-md">
             <img
               className="scale-50"
               src="https://www.svgrepo.com/show/533682/download.svg"
             />
-            <p className="text-start">ohne Untertitel</p>
+            <p className="text-start self-center">ohne Untertitel</p>
           </button>
         </div>
       </div>
