@@ -2,13 +2,20 @@
 import React from "react";
 import classes from "./Video.module.css";
 
-const Video = ({ text }) => {
+const Video = ({ link, downloadLink }) => {
+  const onDownload = (link) => {
+    window.open(link, "_blank");
+  };
+
   return (
     <div className={classes.video_block}>
-      <video src={text} controls className="w-[407px] h-[230px]" />
+      <video src={link} controls className="w-[407px] h-[230px]" />
       <div className="grid grid-cols-2 gap-8 pt-1">
         <div className="grid bg-slate-300 shadow-md">
-          <button className="grid grid-cols-[2fr_6fr]">
+          <button
+            className="grid grid-cols-[2fr_6fr]"
+            onClick={() => onDownload(link)}
+          >
             <img
               className="scale-50"
               src="https://www.svgrepo.com/show/533682/download.svg"
@@ -17,7 +24,10 @@ const Video = ({ text }) => {
           </button>
         </div>
         <div className="pt-1">
-          <button className="grid grid-cols-[2fr_6fr] bg-slate-300 shadow-md">
+          <button
+            className="grid grid-cols-[2fr_6fr] bg-slate-300 shadow-md"
+            onClick={() => onDownload(downloadLink)}
+          >
             <img
               className="scale-50"
               src="https://www.svgrepo.com/show/533682/download.svg"
