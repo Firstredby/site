@@ -5,7 +5,7 @@ const VideosBlock = ({ videos }) => {
   return (
     <div className="flex flex-wrap gap-8 py-4 justify-around">
       {videos.map((el) => (
-        <Video text={el} />
+        <Video link={el.link} downloadLink={el.downloadLink} />
       ))}
     </div>
   );
