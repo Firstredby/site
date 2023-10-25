@@ -13,7 +13,11 @@ const Video = ({ text }) => {
               className="scale-50"
               src="https://www.svgrepo.com/show/533682/download.svg"
             />
+<<<<<<< HEAD
             <p className="text-start self-center">mit Untertitel</p>
+=======
+            <p className="text-start place-self-center">mit Untertitel</p>
+>>>>>>> e8f86022d45b77ca6b319809d3d09984c2637d72
           </button>
         </div>
         <div className="pt-1">
@@ -22,7 +26,11 @@ const Video = ({ text }) => {
               className="scale-50"
               src="https://www.svgrepo.com/show/533682/download.svg"
             />
+<<<<<<< HEAD
             <p className="text-start self-center">ohne Untertitel</p>
+=======
+            <p className="text-start place-self-center">ohne Untertitel</p>
+>>>>>>> e8f86022d45b77ca6b319809d3d09984c2637d72
           </button>
         </div>
       </div>
