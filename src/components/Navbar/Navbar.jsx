@@ -12,20 +12,27 @@ const Navbar = () => {
           />
         </a>
       </div>
-      <div className="w-full text-white">
-        <button className="w-1/4 h-full hover:bg-slate-50 hover:text-black transition duration-150 ease-in-out">
+      <div className="w-full grid grid-cols-4 text-white">
+        <button className="w-full h-full hover:bg-slate-50 hover:text-black transition duration-150 ease-in-out">
           FAQ
         </button>
-        <button className="w-1/4 h-full hover:bg-slate-50 hover:text-black transition duration-150 ease-in-out">
+        <button className="w-full h-full hover:bg-slate-50 hover:text-black transition duration-150 ease-in-out">
           Kontakt
         </button>
-        <button className="w-1/4 h-full hover:bg-slate-50 hover:text-black transition duration-150 ease-in-out">
+        <button className="w-full h-full hover:bg-slate-50 hover:text-black transition duration-150 ease-in-out">
           Hotline
         </button>
-        <button className="w-1/4 h-full bg-[#FF0000] hover:bg-slate-50 hover:text-red-500 transition duration-150 ease-in-out font-medium">
-          DEUTSCH<svg className="h-1" viewBox="0 0 10 6">
-            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4"/>
+        <button className="grid grid-cols-[2fr_6fr] w-full h-full bg-[#FF0000] hover:bg-slate-50 hover:text-red-500 transition duration-150 ease-in-out font-medium">
+          <svg className="h-full w-full" viewBox="0 0 10 6">
+            <path
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="m1 1 4 4 4-4"
+            />
           </svg>
+          <p className="place-self-center">DEUTSCH</p>
         </button>
       </div>
     </nav>
