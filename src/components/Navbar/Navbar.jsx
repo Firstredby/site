@@ -13,16 +13,17 @@ const Navbar = () => {
         </a>
       </div>
       <div className="w-full grid grid-cols-4 text-white">
-        <button className="w-full h-full hover:bg-slate-50 hover:text-black transition duration-150 ease-in-out">
+        <button className="w-full h-full border-r-[1px] border-r-black hover:bg-slate-50 hover:text-black transition duration-150 ease-in-out">
           FAQ
         </button>
-        <button className="w-full h-full hover:bg-slate-50 hover:text-black transition duration-150 ease-in-out">
+        <button className="w-full h-full border-r-[1px] border-r-black hover:bg-slate-50 hover:text-black transition duration-150 ease-in-out">
           Kontakt
         </button>
-        <button className="w-full h-full hover:bg-slate-50 hover:text-black transition duration-150 ease-in-out">
+        <button className="w-full h-full border-r-[1px] border-r-black hover:bg-slate-50 hover:text-black transition duration-150 ease-in-out">
           Hotline
         </button>
-        <button className="grid grid-cols-[2fr_6fr] w-full h-full bg-[#FF0000] hover:bg-slate-50 hover:text-red-500 transition duration-150 ease-in-out font-medium">
+        <button className="grid grid-cols-[6fr_2fr] w-full h-full bg-[#FF0000] hover:bg-slate-50 hover:text-red-500 transition duration-150 ease-in-out font-medium">
+          <p className="place-self-center">DEUTSCH</p>
           <svg className="h-full w-full" viewBox="0 0 10 6">
             <path
               stroke="currentColor"
@@ -32,7 +33,6 @@ const Navbar = () => {
               d="m1 1 4 4 4-4"
             />
           </svg>
-          <p className="place-self-center">DEUTSCH</p>
         </button>
       </div>
     </nav>
