@@ -1,4 +1,5 @@
 .video_block {
 	@apply w-[360px]
 	h-[240px];
+	color: #FF0000;
 }

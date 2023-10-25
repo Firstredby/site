@@ -5,7 +5,7 @@ const Information = () => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
 
   return (
-    <div className="w-full bg-slate-800 flex">
+    <div className="w-full flex bg-gray-300 pt-6 shadow-inner">
       <div className="w-full pl-14">
         <h1 className="pt-2 font-semibold text-2xl">Zusatzmaterialien</h1>
         <p className="pt-2 text-base">

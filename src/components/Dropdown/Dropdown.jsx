@@ -2,7 +2,7 @@ import React from "react";
 
 const Dropdown = ({ isActive, setIsActive }) => {
   return (
-    <div className="w-full h-fit flex justify-end pt-[6px] pr-[12px]">
+    <div className="w-full h-fit flex justify-end pt-[12px] pr-[12px]">
       <button
         id="dropdownRightButton"
         onClick={setIsActive}
