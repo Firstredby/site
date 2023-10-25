@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="grid-cols-[6fr_360px] min-h-[65px] grid mx-auto bg-gray-300 w-5/6">
+    <nav className="grid-cols-[6fr_360px] min-h-[65px] grid mx-auto bg-gray-500 w-5/6">
       <div className="flex h-full w-1.5/10 min-w-[230px]">
         <a href="https://sprachportal.integrationsfonds.at/">
           <img
